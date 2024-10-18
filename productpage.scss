@@ -1,0 +1,172 @@
+body{
+    overflow-x: hidden;
+}
+#check:checked~.navbar ul{
+    display: block;
+}
+#check{
+    display: none;
+}
+
+.upar{
+    background-color: aliceblue;
+    font-family: Helvetica;
+    text-align: center;
+    color:teal;
+    flex-wrap: wrap;
+}
+.locate{
+    background-color: aliceblue;
+    padding: 2px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    h4{
+        color:darkcyan;
+        font-family:'Franklin Gothic Medium'   
+    }
+}
+.navbar{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    i{
+      background-color:darkcyan;    
+      border-radius: 50px;
+      font-size: 50px;
+      padding: 8px;
+      text-align: left;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        color: black; 
+        font-weight: bold;
+        font-size: large;
+        font-family: monospace;
+    }
+    a{
+        color: black;
+        text-decoration: none;  
+    }
+    h1{
+        color:darkcyan;
+        font-family:'Franklin Gothic Medium';
+        font-weight: bold;
+    
+    }
+    }
+    .productimag{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        h2{
+            font-family:'Franklin Gothic Medium';
+        }
+        p{
+            font-size: large;
+            font-family:'Franklin Gothic Medium';
+            
+        }
+        i.merastr{
+            font-size: 30px;
+        }
+        i.merapronam{
+            font-size: large;
+            font-weight: bold;
+        }
+        .productimag_1{
+            background-color:aliceblue ;   
+            margin-top: 20px; 
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        .productimag_2{
+            background-color:aliceblue ;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 20px; 
+        }
+        #btn a{
+            color: white;
+        text-decoration: none;  
+        }
+        
+        
+        .productimag_2 h1{
+            font-family:'Franklin Gothic Medium';        
+        }
+        .productimag_2 h3{
+            font-family:'Franklin Gothic Medium';      
+        }
+        #btn:hover{
+            cursor: pointer;
+            background-color:skyblue;
+            color:black;
+            font-size:smaller;
+            font-weight: bold;
+            margin: 15px black;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #btn{
+            color:white;
+            background-color: orangered;
+            border-radius:10px;
+            padding: 10px;
+            
+        }
+    }
+    .last{
+        display:flex;
+        justify-content: space-around;
+        background-color:cadetblue;
+        flex-wrap: wrap;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        
+    }
+    .child_30{
+        ul{
+            display:block;
+            font-family:'Lucida Sans Regular';
+            font-weight: bold;
+            list-style: none;
+            padding: 5%;
+            
+        }
+    
+    }
+    .playstore{
+        font-size:40px;
+        margin-bottom: 30px;
+        a{
+            color: black;
+            text-decoration: none;  
+        }
+    }
+    .social{
+        font-size:40px;
+        a{
+            color: black;
+            text-decoration: none;  
+        }
+    }
+    .sociall{
+        font-size:40px; 
+        a{
+            color: black;
+            text-decoration: none;  
+        }
+    }
+    .socialll{
+        font-size:40px;  
+        a{
+            color: black;
+            text-decoration: none;  
+        }
+    }

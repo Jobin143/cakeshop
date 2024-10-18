@@ -1,0 +1,128 @@
+body {
+  overflow-x: hidden;
+}
+
+#check:checked ~ .navbar ul {
+  display: block;
+}
+
+#check {
+  display: none;
+}
+
+.upar {
+  background-color: aliceblue;
+  font-family: Helvetica;
+  text-align: center;
+  color: teal;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navbar i {
+  background-color: darkcyan;
+  border-radius: 50px;
+  font-size: 50px;
+  padding: 8px;
+  text-align: left;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  font-family: monospace;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+.navbar h1 {
+  color: darkcyan;
+  font-family: "Franklin Gothic Medium";
+  font-weight: bold;
+}
+
+.locate {
+  background-color: aliceblue;
+  padding: 1px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.locate h4 {
+  color: darkcyan;
+  font-family: "Franklin Gothic Medium";
+}
+
+.Ordrstatus {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Ordrstatus .child i {
+  font-size: 300px;
+  padding: 20px;
+}
+.Ordrstatus h2 {
+  font-size: 50px;
+}
+
+.last {
+  display: flex;
+  justify-content: space-around;
+  background-color: cadetblue;
+  flex-wrap: wrap;
+}
+.last a {
+  color: black;
+  text-decoration: none;
+}
+
+.child_30 ul {
+  display: block;
+  font-family: "Lucida Sans Regular";
+  font-weight: bold;
+  list-style: none;
+  padding: 5%;
+}
+
+.playstore {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.playstore a {
+  color: black;
+  text-decoration: none;
+}
+
+.social {
+  font-size: 40px;
+}
+.social a {
+  color: black;
+  text-decoration: none;
+}
+
+.sociall {
+  font-size: 40px;
+}
+.sociall a {
+  color: black;
+  text-decoration: none;
+}
+
+.socialll {
+  font-size: 40px;
+}
+.socialll a {
+  color: black;
+  text-decoration: none;
+}/*# sourceMappingURL=ordersuccess.css.map */

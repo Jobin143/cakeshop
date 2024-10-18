@@ -1,0 +1,164 @@
+body {
+  overflow-x: hidden;
+}
+
+#check:checked ~ .navbar ul {
+  display: block;
+}
+
+#check {
+  display: none;
+}
+
+.upar {
+  background-color: aliceblue;
+  font-family: Helvetica;
+  text-align: center;
+  color: teal;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navbar i {
+  background-color: darkcyan;
+  border-radius: 50px;
+  font-size: 50px;
+  padding: 8px;
+  text-align: left;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  font-family: monospace;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+.navbar h1 {
+  color: darkcyan;
+  font-family: "Franklin Gothic Medium";
+  font-weight: bold;
+}
+
+.locate {
+  background-color: aliceblue;
+  padding: 1px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.locate h4 {
+  color: darkcyan;
+  font-family: "Franklin Gothic Medium";
+}
+
+.cart {
+  flex-wrap: wrap;
+}
+.cart h2 {
+  font-family: "Franklin Gothic Medium";
+}
+
+.addtocart_1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.addtocart_1 .child_1 {
+  background-color: aliceblue;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.addtocart_1 .child_2 i {
+  font-size: 30px;
+}
+.addtocart_1 #btn {
+  color: white;
+  background-color: orangered;
+  border-radius: 10px;
+  padding: 10px;
+}
+.addtocart_1 #btn:hover {
+  cursor: pointer;
+  background-color: skyblue;
+  color: black;
+  font-size: smaller;
+  font-weight: bold;
+  margin: 15px black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.addtocart_1 #btn a {
+  color: black;
+  text-decoration: none;
+}
+.addtocart_1 .child_2 {
+  background-color: aliceblue;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+.last {
+  display: flex;
+  justify-content: space-around;
+  background-color: cadetblue;
+  flex-wrap: wrap;
+}
+.last a {
+  color: black;
+  text-decoration: none;
+}
+
+.child_30 {
+  flex-wrap: wrap;
+}
+.child_30 ul {
+  display: block;
+  font-family: "Lucida Sans Regular";
+  font-weight: bold;
+  list-style: none;
+  padding: 5%;
+}
+
+.playstore {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.playstore a {
+  color: black;
+  text-decoration: none;
+}
+
+.social {
+  font-size: 40px;
+}
+.social a {
+  color: black;
+  text-decoration: none;
+}
+
+.sociall {
+  font-size: 40px;
+}
+.sociall a {
+  color: black;
+  text-decoration: none;
+}
+
+.socialll {
+  font-size: 40px;
+}
+.socialll a {
+  color: black;
+  text-decoration: none;
+}/*# sourceMappingURL=addtocart.css.map */

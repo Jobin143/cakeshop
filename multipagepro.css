@@ -1,0 +1,371 @@
+body {
+  overflow-x: hidden;
+}
+
+#check:checked ~ .navbar ul {
+  display: block;
+}
+
+#check {
+  display: none;
+}
+
+.upar {
+  background-color: aliceblue;
+  font-family: Helvetica;
+  text-align: center;
+  color: teal;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navbar #btn {
+  color: white;
+  background-color: orangered;
+  border-radius: 10px;
+}
+.navbar i {
+  background-color: darkcyan;
+  border-radius: 50px;
+  font-size: 50px;
+  padding: 8px;
+  text-align: left;
+}
+.navbar .navbar button {
+  border-radius: 20px;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  font-family: monospace;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+.navbar h1 {
+  color: darkcyan;
+  font-family: "Franklin Gothic Medium";
+  font-weight: bold;
+}
+.navbar #btn:hover {
+  cursor: pointer;
+  background-color: skyblue;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  margin: 15px black;
+  padding: 4px;
+  border-radius: 50px;
+}
+
+.midexplain {
+  flex-wrap: wrap;
+}
+.midexplain h1 {
+  font-family: "Lucida Sans";
+  text-align: center;
+}
+.midexplain h2 {
+  font-family: "Lucida Sans Regular";
+  color: grey;
+  text-align: center;
+}
+
+.pic {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.pic h3 {
+  font-family: "Lucida Sans Regular";
+}
+.pic #btn_1 {
+  color: white;
+  background-color: orangered;
+  border-radius: 10px;
+}
+.pic .child_1 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.pic .child_2 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.pic .child_3 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.pic .child_4 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.pic #btn_1:hover {
+  cursor: pointer;
+  background-color: skyblue;
+  color: black;
+  font-size: smaller;
+  font-weight: bold;
+  margin: 15px black;
+  padding: 4px;
+  border-radius: 10px;
+}
+.pic img:hover {
+  scale: 0.95;
+}
+
+@media screen and (max-width: 500px) {
+  .bicpic img {
+    width: 500px;
+  }
+}
+.bicpic {
+  margin: 20px;
+}
+
+.bnm {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bnm h1 {
+  font-family: "Lucida Sans Regular";
+}
+
+.saleorderheadline {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.saleorderheadline h2 {
+  font-family: "Lucida Sans Regular";
+  color: grey;
+}
+
+.child_25 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.child_25 #viewvala {
+  color: white;
+  background-color: orangered;
+  border-radius: 10px;
+}
+.child_25 #viewvala:hover {
+  cursor: pointer;
+  background-color: skyblue;
+  color: black;
+  font-size: smaller;
+  font-weight: bold;
+  margin: 15px black;
+  padding: 8px;
+  border-radius: 150px;
+}
+
+.bokvala {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.bokvala h3 {
+  font-family: "Lucida Sans Regular";
+}
+.bokvala .child_10 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.bokvala .child_11 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.bokvala .child_12 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.bokvala img:hover {
+  scale: 0.95;
+}
+.bokvala #btn_10 {
+  color: white;
+  background-color: orangered;
+  border-radius: 10px;
+}
+.bokvala #btn_10:hover {
+  cursor: pointer;
+  background-color: skyblue;
+  color: black;
+  font-size: smaller;
+  font-weight: bold;
+  margin: 15px black;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.bookvala {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.bookvala h3 {
+  font-family: "Lucida Sans Regular";
+}
+.bookvala .child_15 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.bookvala .child_16 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.bookvala .child_17 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.bookvala img:hover {
+  scale: 0.95;
+}
+.bookvala #btn_15 {
+  color: white;
+  background-color: orangered;
+  border-radius: 10px;
+}
+.bookvala #btn_15:hover {
+  cursor: pointer;
+  background-color: skyblue;
+  color: black;
+  font-size: smaller;
+  font-weight: bold;
+  margin: 15px black;
+  padding: 4px;
+  border-radius: 10px;
+}
+.bookvala a {
+  color: black;
+  text-decoration: none;
+}
+
+.premium {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.premium h1 {
+  font-family: "Lucida Sans Regular";
+}
+
+.premium_2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.premium_2 h2 {
+  font-family: "Lucida Sans Regular";
+  color: grey;
+}
+
+.costly {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.costly .child_20 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.costly .child_21 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.costly .child_22 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+.costly h3 {
+  font-family: "Lucida Sans Regular";
+}
+.costly #btn_20 {
+  color: white;
+  background-color: orangered;
+  border-radius: 10px;
+}
+.costly img:hover {
+  scale: 0.95;
+}
+.costly a {
+  color: black;
+  text-decoration: none;
+}
+.costly #btn_20:hover {
+  cursor: pointer;
+  background-color: skyblue;
+  color: black;
+  font-size: smaller;
+  font-weight: bold;
+  margin: 15px black;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.last {
+  display: flex;
+  justify-content: space-around;
+  background-color: cadetblue;
+  flex-wrap: wrap;
+}
+.last a {
+  color: black;
+  text-decoration: none;
+}
+
+.child_30 ul {
+  display: block;
+  font-family: "Lucida Sans Regular";
+  font-weight: bold;
+  list-style: none;
+  padding: 5%;
+}
+
+.playstore {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.playstore a {
+  color: black;
+  text-decoration: none;
+}
+
+.social {
+  font-size: 40px;
+}
+.social a {
+  color: black;
+  text-decoration: none;
+}
+
+.sociall {
+  font-size: 40px;
+}
+.sociall a {
+  color: black;
+  text-decoration: none;
+}
+
+.socialll {
+  font-size: 40px;
+}
+.socialll a {
+  color: black;
+  text-decoration: none;
+}/*# sourceMappingURL=multipagepro.css.map */
